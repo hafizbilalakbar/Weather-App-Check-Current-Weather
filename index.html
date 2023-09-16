@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - Check Current Weather</title>
+    <meta name="description"
+        content="Get real-time weather updates. Enter a city name and find out the current temperature, humidity, and wind speed.">
+    <link rel="stylesheet" href="app.css">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
+    <link rel="manifest" href="favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><img src="/images/search.png" alt="Search"></button>
+        </div>
+        <div class="error-message">
+            <p>Invalid City Name. Please reenter a valid city.</p>
+        </div>
+        <div class="weather">
+            <img src="images/clouds.png" class="weather-icon" alt="Weather Icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col-1">
+                    <img src="images/humidity.png" alt="Humidity Icon">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img src="images/wind.png" alt="Wind Speed Icon">
+                    <div>
+                        <p class="wind">11 km/h</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
