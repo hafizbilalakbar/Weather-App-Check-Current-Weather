@@ -164,12 +164,13 @@ body {
   outline: 0;
   background: #ebfffc;
   color: #555;
-  padding: 10px 25px;
+  padding: 8px 28px;
   height: 60px;
   border-radius: 30px;
   flex: 1;
   margin-right: 16px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
   text-align: start;
   padding-bottom: 2px;
 }
